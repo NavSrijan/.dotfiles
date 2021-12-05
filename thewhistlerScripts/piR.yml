@@ -1,0 +1,315 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/thewhistler/thewhistlerScripts
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 133
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 35
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 552
+    content: "\e[?2004h[thewhistler@KatnissEverdeen thewhistlerScripts]$ "
+  - delay: 1611
+    content: p
+  - delay: 121
+    content: 'y'
+  - delay: 102
+    content: t
+  - delay: 80
+    content: h
+  - delay: 95
+    content: o
+  - delay: 80
+    content: 'n'
+  - delay: 120
+    content: '3'
+  - delay: 97
+    content: ' '
+  - delay: 408
+    content: p
+  - delay: 263
+    content: i
+  - delay: 272
+    content: G
+  - delay: 200
+    content: a
+  - delay: 120
+    content: m
+  - delay: 80
+    content: e
+  - delay: 144
+    content: .
+  - delay: 384
+    content: p
+  - delay: 104
+    content: 'y'
+  - delay: 432
+    content: "\r\n\e[?2004l\r"
+  - delay: 37
+    content: '3.'
+  - delay: 1051
+    content: '1'
+  - delay: 200
+    content: '4'
+  - delay: 209
+    content: '1'
+  - delay: 215
+    content: '5'
+  - delay: 496
+    content: '9'
+  - delay: 224
+    content: '2'
+  - delay: 200
+    content: '6'
+  - delay: 192
+    content: '5'
+  - delay: 232
+    content: '3'
+  - delay: 327
+    content: '5'
+  - delay: 257
+    content: '8'
+  - delay: 295
+    content: '9'
+  - delay: 3089
+    content: '7'
+  - delay: 55
+    content: '9'
+  - delay: 272
+    content: '3'
+  - delay: 120
+    content: '2'
+  - delay: 216
+    content: '3'
+  - delay: 136
+    content: '8'
+  - delay: 241
+    content: '4'
+  - delay: 87
+    content: '6'
+  - delay: 416
+    content: '2'
+  - delay: 56
+    content: '6'
+  - delay: 216
+    content: '4'
+  - delay: 128
+    content: '3'
+  - delay: 496
+    content: '3'
+  - delay: 144
+    content: '8'
+  - delay: 216
+    content: '3'
+  - delay: 103
+    content: '2'
+  - delay: 1585
+    content: '7'
+  - delay: 72
+    content: '9'
+  - delay: 217
+    content: '5'
+  - delay: 159
+    content: '0'
+  - delay: 271
+    content: '2'
+  - delay: 482
+    content: '8'
+  - delay: 127
+    content: '8'
+  - delay: 185
+    content: '4'
+  - delay: 263
+    content: '1'
+  - delay: 104
+    content: '9'
+  - delay: 177
+    content: '7'
+  - delay: 207
+    content: '1'
+  - delay: 256
+    content: '6'
+  - delay: 160
+    content: '9'
+  - delay: 209
+    content: '3'
+  - delay: 231
+    content: '9'
+  - delay: 2992
+    content: '9'
+  - delay: 200
+    content: '3'
+  - delay: 232
+    content: '7'
+  - delay: 224
+    content: '5'
+  - delay: 2480
+    content: '1'
+  - delay: 104
+    content: '0'
+  - delay: 256
+    content: '5'
+  - delay: 199
+    content: '8'
+  - delay: 2513
+    content: '2'
+  - delay: 167
+    content: '0'
+  - delay: 216
+    content: '9'
+  - delay: 128
+    content: '7'
+  - delay: 1328
+    content: '4'
+  - delay: 368
+    content: '9'
+  - delay: 320
+    content: '4'
+  - delay: 144
+    content: '4'
+  - delay: 1456
+    content: '5'
+  - delay: 200
+    content: '9'
+  - delay: 240
+    content: '2'
+  - delay: 64
+    content: '3'
+  - delay: 1552
+    content: "6\r\nSCORE: 64\r\nThe next two digits are: 0781\r\n"
+  - delay: 14
+    content: "\e[?2004h[thewhistler@KatnissEverdeen thewhistlerScripts]$ "
+  - delay: 185
+    content: '4'
+  - delay: 232
+    content: '0'
+  - delay: 3048
+    content: "\b\e[K"
+  - delay: 660
+    content: "\b\e[K"
+  - delay: 40
+    content: "\a"
+  - delay: 40
+    content: "\a"
+  - delay: 40
+    content: "\a"
+  - delay: 40
+    content: "\a"
+  - delay: 42
+    content: "\a"
+  - delay: 39
+    content: "\a"
+  - delay: 43
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 33
+    content: "\a"
+  - delay: 34
+    content: "\a"
+  - delay: 2529
+    content: "\e[?2004l\r\r\nlogout\r\n"

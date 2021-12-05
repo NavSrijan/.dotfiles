@@ -1,0 +1,112 @@
+#!/usr/bin/python3
+import os
+import tkinter as tk
+import tkinter.ttk as ttk
+from pdf2image import convert_from_path
+import sys
+from PIL import Image, ImageTk
+import shutil
+
+args = sys.argv
+
+try:
+    pdf = args[1]
+except:
+    print("USAGE: PDFSelector <PDF file to trim>")
+    exit()
+cwd = os.getcwd()
+
+print(cwd)
+
+imageNo = 0
+imagesToKeep = []
+
+
+PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
+PROJECT_UI = os.path.join(PROJECT_PATH, "ui.ui")
+
+class UiApp:
+    def __init__(self, pdf, master=None):
+    
+        self.name, self.totalImages = convertToImages(pdf)
+
+        # build ui
+        self.main_window = tk.Tk() if master is None else tk.Toplevel(master)
+        self.frameMain = ttk.Frame(self.main_window)
+        self.discardButton = ttk.Button(self.frameMain, command=self.discardButtonFunc)
+        self.discardButton.configure(text='Discard')
+        self.discardButton.pack(side=tk.BOTTOM)
+        self.KeepButton = ttk.Button(self.frameMain, command=self.keepButtonFunc)
+        self.KeepButton.configure(text='Save')
+        self.KeepButton.pack(side=tk.BOTTOM)
+        
+        self.displayImage(cwd+"/temp/page0.jpg")
+                
+        self.frameMain.configure(cursor='arrow', height='480', width='640')
+        self.frameMain.pack(side='top')
+        self.main_window.configure(height='200', width='200')
+        self.main_window.geometry('1280x720')
+        self.main_window.resizable(False, False)
+        self.main_window.title('PDFSelector')
+
+        # Main widget
+        self.mainwindow = self.main_window    
+
+
+    def run(self):
+        self.mainwindow.mainloop()
+    def checkDone(self):
+        if imageNo==self.totalImages:
+            for i in imagesToKeep:
+                print(i)
+            stitchPDF(imagesToKeep, self.name)
+            self.mainwindow.destroy()
+            return True
+        else:
+            return False
+    def discardButtonFunc(self):
+        self.displayImage(cwd+"/temp/page{}.jpg".format(imageNo))
+        if self.checkDone():
+            return
+    def keepButtonFunc(self):
+        global imageNo, imagesToKeep
+        imagesToKeep.append(imageNo-1)
+        if self.checkDone():
+            return
+        self.displayImage(cwd+"/temp/page{}.jpg".format(imageNo))
+    def displayImage(self, path):
+        global imageNo
+        try:
+            self.currentImage.destroy()
+        except:
+            pass
+
+        img = Image.open(path)
+        
+        img = img.resize((1100, 621), Image.ANTIALIAS)
+        img = ImageTk.PhotoImage(img)
+        panel = tk.Label(self.main_window, image = img)
+        panel.image = img
+        panel.pack(side=tk.TOP)
+        imageNo+=1
+        self.currentImage = panel
+
+
+def convertToImages(pdf):
+    images = convert_from_path(pdf)
+    os.makedirs('temp')
+    for i in range(len(images)):    
+        # Save pages as images in the pdf
+        images[i].save(cwd+'/temp/page'+ str(i) +'.jpg', 'JPEG')
+    return pdf, len(images)
+def stitchPDF(indexLL, name):
+    basePath = cwd+"/temp/page{}.jpg"
+    finalImages = []
+    for i in indexLL:
+        img = Image.open(basePath.format(i))
+        finalImages.append(img)
+    finalImages[0].save(cwd+"/{}_cut.pdf".format(name[:-4]), save_all=True, append_images=finalImages[1:])
+    shutil.rmtree(cwd+"/temp")
+if __name__ == '__main__':
+    app = UiApp(pdf)
+    app.run()

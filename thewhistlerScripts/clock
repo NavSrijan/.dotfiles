@@ -1,0 +1,106 @@
+#!/bin/python3
+from sympy import symbols, solve, Eq
+import numpy as np
+from terminalplot import plot
+import math,time
+
+def getXY(h,k,r,theta):
+        fi = theta*math.pi/180
+        x = h+r*math.cos(fi)
+        y = k+r*math.sin(fi)
+        return x,y
+def strLine(x1,y1,x2,y2):
+    x1 = int(x1)
+    x2 = int(x2)
+    y1 = int(y1)
+    y2 = int(y2)
+
+    xf = []
+    yf = []
+    try:
+        m = (y2-y1)/(x2-x1)
+        if y2==0:
+            if x2>0:
+                u = 1
+            else:
+                u = -1
+            xf = [x for x in range(0,x2,u)]
+            for i in range(len(xf)):
+                yf.append(0)
+
+            return xf,yf    
+    except:
+        if x1==0:
+            if y2>0:
+                u = 1
+            else:
+                u = -1
+            yf = [x for x in range(0,y2,u)]
+            for i in range(len(yf)):
+                xf.append(0)
+
+        return xf,yf
+    if y2>0:
+        u=1
+    else:
+        u=-1
+    for y in range(0, y2, u):
+        #y-y1 = m(x-x1)
+        x = ((y-y1)/m)+x1
+        xf.append(x)
+        yf.append(y)
+    return xf,yf
+
+def cir(h,k,r):
+    y = symbols("y", real=True)
+    rr = np.linspace(0,10,100)
+    final = []
+    xf = [0,h]
+    yf = [0,k]
+
+    for i in range(0, 360):
+        x,y = getXY(h,k,r,i)
+        xf.append(x)
+        yf.append(y)
+
+    return xf,yf
+
+def plotEverything(xl,yl):
+    xf = []
+    yf = []
+    for i in xl:
+        xf+=i
+    for i in yl:
+        yf+=i
+    plot(xf,yf)
+
+def hourHand(t):
+    i = 90-30*t
+    x2,y2 = getXY(0,0,100,i)
+
+    x2 = x2-(40*x2)/100
+    y2 = y2-(40*y2)/100
+
+    xt,yt = strLine(0,0,x2,y2)
+    return xt, yt
+def minuteHand(t):
+    i = 90-6*t
+    x3,y3 = getXY(0,0,100,i)
+
+    x3 = x3-(20*x3)/100
+    y3 = y3-(20*y3)/100
+
+    xtt,ytt = strLine(0,0,x3,y3)
+    return xtt, ytt
+def main():
+    xf,yf = cir(0,0,100)
+    while True:
+        tt =  time.localtime()
+        xt,yt = hourHand(tt.tm_hour)
+        xtt,ytt = minuteHand(tt.tm_min)
+
+        plotEverything([xf,xt,xtt], [yf,yt,ytt])
+
+        time.sleep(60)
+        print("\033[2J")
+main()

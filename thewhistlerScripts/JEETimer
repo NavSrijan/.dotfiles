@@ -1,0 +1,65 @@
+#!/usr/bin/python3
+import pickle
+import os
+from glob import glob
+import time
+
+basePath = r"/home/thewhistler/Documents/JEETiming/"
+
+def storeData(data, f):
+    with open(f, 'wb') as q:
+        pickle.dump(data, q)
+def readData(f):
+    with open(f, 'rb') as q:
+        return pickle.load(f)
+
+i = input('''
+Which Subject?
+1. Physics
+2. Maths
+3. Chemistry
+---> ''')
+if i=="1":
+    sub = "Physics"
+elif i=="2":
+    sub = "Maths"
+elif i=="3":
+    sub = "Chemistry"
+else:
+    exit()
+i = input("Do you want to create a new folder? y/n")
+if i=="y":
+    name = input("Input Chapter Name: ")
+    os.mkdir(basePath + sub + "/" + name)
+    fPath = basePath + sub + "/" + name + "/"
+else:
+    dirs = glob(basePath + sub + "/*")
+    j = 1
+    for i in dirs:
+        print(str(j) + " > " + i.replace(basePath + sub + "/", ""))
+        j+=1
+    i = input('''
+    Which Chapter?
+    --->''')
+    fPath = dirs[int(i)-1] + "/"
+
+input("Press enter to start.")
+times = []
+while True:
+    print("\n"*5)
+    firstTime = time.time()
+    kk = input("Press enter to register time")
+    secondTime = time.time()
+    times.append(round(secondTime-firstTime))
+    if kk=="exit":
+        break
+
+lTime = time.localtime()
+fName = f"{lTime.tm_mday}_{lTime.tm_mon}_{lTime.tm_year}__{lTime.tm_hour}_{lTime.tm_min}_{lTime.tm_sec}.time"
+storeData(times, fPath+fName)
+print("You took the following times:")
+j=1
+for i in times:
+    toDisplay = f"{i//60}m {i%60}s"
+    print(str(j) + " ---> " + str(toDisplay))
+    j+=1

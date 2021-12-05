@@ -1,0 +1,5 @@
+while [ 1 -eq 1 ]
+do
+  sensors
+  sleep 1
+done

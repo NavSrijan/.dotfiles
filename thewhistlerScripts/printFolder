@@ -1,0 +1,21 @@
+#!/bin/python3
+import sys
+import os
+import glob
+from pdfHandler import PDFsplit
+
+args = sys.argv
+
+folderName = args[1]
+
+PDFsplit(folderName)
+
+#os.chdir(folderName)
+#imgs = []
+#for file in glob.glob("*"):
+#    imgs.append(os.path.join(folderName, file))
+#imgs.sort()
+#for i in imgs:
+#    input("Press enter to print next page.")
+#    print("lp " + i)
+#    os.system("lp " + i)

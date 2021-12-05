@@ -1,0 +1,6 @@
+#!/bin/bash
+export DATABASE_URL="postgres://knprtpruztjjdz:da716300f124f2f2340fd092bc55ca9a4b2075c3bb2c5cca190168641dc2a9c6@ec2-52-45-179-101.compute-1.amazonaws.com:5432/d1k99vppnil2dv"
+export Sheets_Api="AIzaSyCvkmQEacfNrmni1Ln4ffUzh3St--lULvM"
+export Spreadsheet_Id="1XFXext9y0qJm97NxN_Fjs7wcDaYyTKQk1tGwV4HXbrY"
+export theWhistlerID="787882005"
+export token="1083471844:AAGaSLqW5ZLYF6pdyNSwy37mj3_7m990E_M"
