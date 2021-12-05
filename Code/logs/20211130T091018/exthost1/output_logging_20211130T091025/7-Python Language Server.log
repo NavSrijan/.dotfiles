@@ -1,0 +1,18 @@
+[Info  - 9:10:27 AM] Pylance language server 2021.11.2 (pyright b27108d5) starting
+[Info  - 9:10:27 AM] Server root directory: /home/thewhistler/.vscode/extensions/ms-python.vscode-pylance-2021.11.2/dist
+[Info  - 9:10:27 AM] No configuration file found.
+[Info  - 9:10:27 AM] No pyproject.toml file found.
+[Info  - 9:10:27 AM] Setting pythonPath for service "Tuesday": "/home/thewhistler/Projects/Tuesday/Tuesday/bin/python"
+[Warn  - 9:10:27 AM] stubPath /home/thewhistler/Projects/Tuesday/typings is not a valid directory.
+[Info  - 9:10:27 AM] Assuming Python version 3.9
+[Info  - 9:10:27 AM] Assuming Python platform Linux
+[Warn  - 9:10:27 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 9:10:27 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 9:10:27 AM] Searching for source files
+[Info  - 9:10:27 AM] Auto-excluding /home/thewhistler/Projects/Tuesday/Tuesday
+[Info  - 9:10:27 AM] Found 6 source files
+[Info  - 9:10:28 AM] Background analysis(1) root directory: /home/thewhistler/.vscode/extensions/ms-python.vscode-pylance-2021.11.2/dist
+[Info  - 9:10:28 AM] Background analysis(1) started
+[Info  - 9:10:37 AM] Searching for source files
+[Info  - 9:10:37 AM] Auto-excluding /home/thewhistler/Projects/Tuesday/Tuesday
+[Info  - 9:10:37 AM] Found 6 source files

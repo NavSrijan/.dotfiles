@@ -1,0 +1,45 @@
+Validating found git in: git
+Using git 2.33.0 from git
+Opening repository for path='/home/thewhistler/Projects/Tuesday' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/thewhistler/Projects/Tuesday' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/thewhistler/Projects/Tuesday/Tuesday' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/thewhistler/Projects/Tuesday/__main__.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/thewhistler/Projects/Tuesday/__pycache__' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/thewhistler/Projects/Tuesday/chromeAutomation.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/thewhistler/Projects/Tuesday/display.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/thewhistler/Projects/Tuesday/evaluator.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/thewhistler/Projects/Tuesday/readKey.sh' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/thewhistler/Projects/Tuesday/test' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/thewhistler/Projects/Tuesday/test.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/thewhistler/Projects/Tuesday/the_evaluator.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/thewhistler/Projects/Tuesday' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}

@@ -1,0 +1,40 @@
+[2021-11-30 12:53:46.313] [renderer1] [info] Starting extension host with pid 10685.
+[2021-11-30 12:53:46.314] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 77 ms.
+[2021-11-30 12:53:47.495] [renderer1] [error] [Extension Host] (node:10685) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-11-30 12:54:00.323] [renderer1] [info] Starting extension host with pid 10837.
+[2021-11-30 12:54:00.326] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 71 ms.
+[2021-11-30 12:54:01.067] [renderer1] [error] [Extension Host] (node:10837) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-11-30 12:56:24.924] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:353150
+	at h (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:358146)
+	at async x.provideCompletionItems (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181124)
+[2021-11-30 13:00:45.912] [renderer1] [info] Starting extension host with pid 11156.
+[2021-11-30 13:00:45.912] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 56 ms.
+[2021-11-30 13:00:46.435] [renderer1] [error] [Extension Host] (node:11156) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-11-30 13:00:59.098] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:353150
+	at h (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:358146)
+	at async x.provideCompletionItems (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181124)
+[2021-11-30 13:13:52.505] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:353150
+	at h (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:358146)
+	at async x.provideCompletionItems (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181124)
+[2021-11-30 13:20:32.233] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:353150
+	at h (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:358146)
+	at async x.provideCompletionItems (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181124)
+[2021-11-30 13:26:01.054] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:353150
+	at h (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:358146)
+	at async x.provideCompletionItems (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181124)
+[2021-11-30 13:32:07.649] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:353150
+	at h (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:358146)
+	at async x.provideCompletionItems (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181124)
+[2021-11-30 13:37:58.123] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:353150
+	at h (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:358146)
+	at async x.provideCompletionItems (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181124)

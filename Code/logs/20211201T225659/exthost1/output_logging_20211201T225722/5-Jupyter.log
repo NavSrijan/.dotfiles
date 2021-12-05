@@ -1,0 +1,69 @@
+Info 2021-12-01 22:57:22: Experimentation service retrieved: [object Object]
+User belongs to experiment group 'jupyterTestcf'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Error 2021-12-01 22:57:22: Exception while attempting zmq : [Error: /snap/core/current/usr/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.22' not found (required by /home/thewhistler/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599/out/client/node_modules/zeromq/prebuilds/linux-x64/electron.napi.glibc.node)
+	at process.func [as dlopen] (electron/js2c/asar_bundle.js:5:1846)
+	at Object.Module._extensions..node (internal/modules/cjs/loader.js:1185:18)
+	at Object.func [as .node] (electron/js2c/asar_bundle.js:5:1846)
+	at Module.load (internal/modules/cjs/loader.js:982:32)
+	at Module._load (internal/modules/cjs/loader.js:823:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.n._load (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:28606)
+	at Function.b._load (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:25193)
+	at Function.h._load (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:60406)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at h (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/loader.js:4:699)
+	at load (/home/thewhistler/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599/out/client/node_modules/node-gyp-build/index.js:21:10)
+	at Object.<anonymous> (/home/thewhistler/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599/out/client/node_modules/zeromq/lib/native.js:6:43)
+	at Module.u._compile (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/loader.js:4:1316)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1155:10)
+	at Module.load (internal/modules/cjs/loader.js:982:32)
+	at Module._load (internal/modules/cjs/loader.js:823:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.n._load (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:28606)
+	at Function.b._load (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:25193)
+	at Function.h._load (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:60406)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at h (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/loader.js:4:699)
+	at Object.<anonymous> (/home/thewhistler/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599/out/client/node_modules/zeromq/lib/index.js:3:16)
+	at Module.u._compile (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/loader.js:4:1316)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1155:10)
+	at Module.load (internal/modules/cjs/loader.js:982:32)
+	at Module._load (internal/modules/cjs/loader.js:823:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.n._load (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:28606)
+	at Function.b._load (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:25193)
+	at Function.h._load (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:60406)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at h (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/loader.js:4:699)
+	at Object.<anonymous> (/home/thewhistler/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599/out/client/extension.js:51:329396)
+	at n (/home/thewhistler/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599/out/client/extension.js:1:186)
+	at d.zmqSupported (/home/thewhistler/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599/out/client/extension.js:102:667145)
+	at d.isSupportedForLocalLaunch (/home/thewhistler/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599/out/client/extension.js:102:666793)
+	at d.get isSupported [as isSupported] (/home/thewhistler/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599/out/client/extension.js:102:666703)
+	at t.registerTypes (/home/thewhistler/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599/out/client/extension.js:66:835963)
+	at /home/thewhistler/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599/out/client/extension.js:66:245914
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async /home/thewhistler/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599/out/client/extension.js:51:733934
+	at async t.activate (/home/thewhistler/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599/out/client/extension.js:51:733613)
+	at async Promise.all (index 1)]
+Info 2021-12-01 22:57:22: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+Info 2021-12-01 22:57:24: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+Info 2021-12-01 22:57:24: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+Info 2021-12-01 22:57:24: Process Execution: > /bin/python -c "import jupyter"
+> /bin/python -c "import jupyter"
+Info 2021-12-01 22:57:24: Process Execution: > /bin/python -c "import jupyter"
+> /bin/python -c "import jupyter"
+Info 2021-12-01 22:57:24: Process Execution: > /bin/python -c "import notebook"
+> /bin/python -c "import notebook"
+Info 2021-12-01 22:57:24: Process Execution: > /bin/python -c "import notebook"
+> /bin/python -c "import notebook"
+Info 2021-12-01 22:59:20: Shutting down notebooks for 2ec26b76-4924-4605-9235-ae95cf75736c
+Info 2021-12-01 22:59:20: Disposing HostJupyterExecution 88b26a10-4c5d-45b4-8462-cb92faf222aa
+Info 2021-12-01 22:59:20: Disposing super HostJupyterExecution 88b26a10-4c5d-45b4-8462-cb92faf222aa
+Info 2021-12-01 22:59:20: Disposing HostJupyterExecution 88b26a10-4c5d-45b4-8462-cb92faf222aa
+Info 2021-12-01 22:59:20: Finished disposing HostJupyterExecution  88b26a10-4c5d-45b4-8462-cb92faf222aa
+Info 2021-12-01 22:59:20: Cleaning up server cache 88b26a10-4c5d-45b4-8462-cb92faf222aa
+Info 2021-12-01 22:59:20: Finished disposing HostJupyterExecution  88b26a10-4c5d-45b4-8462-cb92faf222aa

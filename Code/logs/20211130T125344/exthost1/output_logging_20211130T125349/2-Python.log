@@ -1,0 +1,22 @@
+Experiment 'pythonaa' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'pythonSurveyNotification' is active
+Experiment 'PythonPyTorchProfiler' is active
+Experiment 'pythonDeprecatePythonPath' is active
+Experiment 'pythonRunFailedTestsButtonDisplayed' is active
+Experiment 'pythonRefreshTestsButtonDisplayed' is active
+Experiment 'pythonRememberDebugConfig' is active
+> conda info --json
+> ~/Projects/Tuesday/Tuesday/bin/python ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /bin/python ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+Python interpreter path: ./Tuesday/bin/python
+Starting Pylance language server.
+> ". /home/thewhistler/Projects/Tuesday/Tuesday/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/printEnvVariables.py"
+> ". /home/thewhistler/Projects/Tuesday/Tuesday/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/printEnvVariables.py"
+> ". /home/thewhistler/Projects/Tuesday/Tuesday/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/printEnvVariables.py"
+> conda --version
+Error 2021-11-30 12:53:58: Error while running worker[Worker 2]. undefined
+Error 2021-11-30 12:53:58: Error while running worker[Worker 1]. undefined

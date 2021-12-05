@@ -1,0 +1,147 @@
+[2021-11-28 18:03:17.329] [exthost] [info] Extension host with pid 123354 started
+[2021-11-28 18:03:17.329] [exthost] [info] Skipping acquiring lock for /home/thewhistler/.config/Code/User/workspaceStorage/203a7d4060db510731023ff1071d67b6.
+[2021-11-28 18:03:17.888] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-11-28 18:03:17.945] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-11-28 18:03:18.473] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-11-28 18:03:19.220] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-11-28 18:03:19.227] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-11-28 18:03:19.357] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2021-11-28 18:03:19.976] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-11-28 18:03:20.827] [exthost] [info] Eager extensions activated
+[2021-11-28 18:03:21.113] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-11-28 18:03:21.116] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-28 18:03:21.395] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-11-28 18:03:22.172] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-11-28 18:03:25.610] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:03:25.610] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:118727
+	at async A.provideCodeActions (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:172824)
+[2021-11-28 18:03:26.007] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:03:26.007] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:334291
+	at async z.provideDocumentSemanticTokens (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:178315)
+[2021-11-28 18:03:26.010] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:03:26.010] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:335369
+	at async U.provideDocumentRangeSemanticTokens (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:180425)
+[2021-11-28 18:03:26.019] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:03:26.019] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:335369
+	at async U.provideDocumentRangeSemanticTokens (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:180425)
+[2021-11-28 18:03:26.021] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:03:26.021] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:335369
+	at async U.provideDocumentRangeSemanticTokens (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:180425)
+[2021-11-28 18:03:26.055] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:03:26.055] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:335369
+	at async U.provideDocumentRangeSemanticTokens (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:180425)
+[2021-11-28 18:03:26.058] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:03:26.058] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:335369
+	at async U.provideDocumentRangeSemanticTokens (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:180425)
+[2021-11-28 18:03:26.066] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:03:26.067] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:335369
+	at async U.provideDocumentRangeSemanticTokens (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:180425)
+[2021-11-28 18:03:26.070] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:03:26.070] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:118727
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async A.provideCodeActions (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:172824)
+[2021-11-28 18:03:26.655] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:03:26.655] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async d.provideHover (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170516)
+[2021-11-28 18:04:05.323] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:04:05.323] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:353150
+	at h (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:358146)
+	at async x.provideCompletionItems (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181124)
+[2021-11-28 18:04:12.534] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:04:12.534] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:110416
+	at async x.resolveCompletionItem (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181841)
+[2021-11-28 18:04:23.119] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:04:23.120] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:110020
+	at async x.provideCompletionItems (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181124)
+[2021-11-28 18:04:23.196] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:04:23.196] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:118727
+	at async A.provideCodeActions (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:172824)
+[2021-11-28 18:08:30.475] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:08:30.475] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:118727
+	at async A.provideCodeActions (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:172824)
+[2021-11-28 18:09:25.532] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:09:25.532] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:353150
+	at h (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:358146)
+	at async x.provideCompletionItems (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181124)
+[2021-11-28 18:09:57.582] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:09:57.582] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:110416
+	at async x.resolveCompletionItem (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181841)
+[2021-11-28 18:09:57.642] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:09:57.642] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:110416
+	at async x.resolveCompletionItem (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181841)
+[2021-11-28 18:11:52.251] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:11:52.251] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:110416
+	at async x.resolveCompletionItem (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181841)
+[2021-11-28 18:14:25.844] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:14:25.844] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:353150
+	at h (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:358146)
+	at async x.provideCompletionItems (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181124)
+[2021-11-28 18:14:26.213] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:14:26.214] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:110416
+	at async x.resolveCompletionItem (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181841)
+[2021-11-28 18:14:33.148] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-28 18:14:33.149] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:110416
+	at async x.resolveCompletionItem (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181841)
+[2021-11-28 18:17:45.175] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-11-28 18:17:46.215] [exthost] [info] Extension host with pid 123354 exiting with code 0
