@@ -1,0 +1,4 @@
+file:///home/thewhistler/Projects/playground/territorial.py {"mtime":1638379705484,"ctime":1638379684790,"size":30,"etag":"37sbf1rh7u","orphaned":false,"typeId":""}
+from selenium import webdriver
+
+driver = webdriver.Chrome

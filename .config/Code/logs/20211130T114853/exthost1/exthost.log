@@ -1,0 +1,33 @@
+[2021-11-30 11:49:02.456] [exthost] [info] Extension host with pid 6761 started
+[2021-11-30 11:49:02.457] [exthost] [info] Skipping acquiring lock for /home/thewhistler/.config/Code/User/workspaceStorage/203a7d4060db510731023ff1071d67b6.
+[2021-11-30 11:49:02.660] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-11-30 11:49:02.693] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-11-30 11:49:03.262] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-11-30 11:49:03.700] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-11-30 11:49:03.781] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-11-30 11:49:03.841] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2021-11-30 11:49:04.766] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-11-30 11:49:04.806] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-11-30 11:49:04.954] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-11-30 11:49:05.497] [exthost] [info] Eager extensions activated
+[2021-11-30 11:49:05.590] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-11-30 11:49:05.621] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-30 11:49:18.772] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-30 11:49:18.772] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:353150
+	at h (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:52:358146)
+	at async x.provideCompletionItems (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181124)
+[2021-11-30 11:49:19.674] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-30 11:49:19.674] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:118727
+	at async A.provideCodeActions (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:172824)
+[2021-11-30 11:49:25.006] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-30 11:49:25.007] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/thewhistler/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:110416
+	at async x.resolveCompletionItem (/var/lib/snapd/snap/code/82/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181841)
+[2021-11-30 11:59:06.083] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-11-30 11:59:07.116] [exthost] [info] Extension host with pid 6761 exiting with code 0
